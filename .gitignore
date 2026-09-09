@@ -1,0 +1,19 @@
+# Node & Environment
+node_modules/
+**/node_modules/
+.env
+*.env
+**/.env
+.env.*
+
+# Logs & Diagnostics
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Build outputs
+dist/
+**/dist/
+build/
+.DS_Store

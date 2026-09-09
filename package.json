@@ -8,8 +8,12 @@
     "server"
   ],
   "scripts": {
-    "build": "npm run build --workspace=client",
+    "build": "cd client && vite build",
     "start": "node server/src/index.js",
     "dev": "npm run dev --workspace=server"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.1.0"
   }
 }
